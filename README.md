@@ -2,6 +2,8 @@
 
 Test and enhance your Spring Security expertise with this comprehensive quiz!  
 Each task challenges you to configure Spring Security for a specific use case, providing a hands-on approach to mastering real-world scenarios.  
+## Spring Security Architecture diagram
+![SpringSecurityArchitectureDiagram.svg](SpringSecurityArchitectureDiagram.svg)
 
 ## 🌟 Features  
 - 📚 Practical tasks for mastering Spring Security.  
