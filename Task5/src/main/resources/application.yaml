@@ -1,0 +1,33 @@
+
+# don't forget to change this jwt configuration
+jwt_secret: oIhbd+QIyZnylJiHfnjjXcnHGXMicUqu9+no8qHAyXw=
+jwt_expiration_hours: 5
+
+spring:
+  application:
+    name: Task5
+
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/security_playground
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+
+    show-sql: true
+
+
+  sql:
+    init:
+      mode: always  # Ensure scripts are run for schema/data initialization, if any.
+
+
+
