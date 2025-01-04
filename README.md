@@ -106,4 +106,4 @@ This project is inspired by the need to bridge the gap between learning concepts
 
 ---
 
-Happy Learning! 🎉
+Happy Learning! 🎉 And Don't forget to KISS 💋💋 (keep it simple stupid)
