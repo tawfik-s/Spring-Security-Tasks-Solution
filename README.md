@@ -51,9 +51,9 @@ Implement **role-based access control**:
 ---
 
 ### 🌐 Task 6: OAuth2 Login  
-- Set up **OAuth2 login** with GitHub as an identity provider.  
+- Set up **OAuth2 login** with GitHub & Google as an identity provider.  
 - Allow users to log in using their **GitHub accounts**.  
-- 
+- Allow users to login using their **Google sccounts**
 ---
 
 ### 📋 Task 7: Method-Level Security  
