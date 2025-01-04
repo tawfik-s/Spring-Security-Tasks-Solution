@@ -38,7 +38,8 @@ Implement **role-based access control**:
 ### 🔑 Task 4: Password Encoding  
 - Integrate a **password encoder** (e.g., `BCryptPasswordEncoder`) to hash and verify passwords stored in a database.  
 - Use a **database** to manage user details instead of in-memory users.  
-
+- Use Spring Security's `SecurityContext` to pass user details into a service layer.  
+- Create a **custom user details service** to load user data from a database.  
 ---
 
 ### 📜 Task 5: JWT Authentication  
@@ -52,7 +53,7 @@ Implement **role-based access control**:
 ### 🌐 Task 6: OAuth2 Login  
 - Set up **OAuth2 login** with GitHub as an identity provider.  
 - Allow users to log in using their **GitHub accounts**.  
-
+- 
 ---
 
 ### 📋 Task 7: Method-Level Security  
@@ -85,18 +86,12 @@ Implement **role-based access control**:
 
 ---
 
-### 🔄 Task 12: Security Context Propagation  
-- Use Spring Security's `SecurityContext` to pass user details into a service layer.  
-- Create a **custom user details service** to load user data from a database.  
-
----
-
-### 📂 Task 13: LDAP Authentication  
+### 📂 Task 12: LDAP Authentication  
 - Configure the application to authenticate users against an **LDAP server**.  
 
 ---
 
-### 🧪 Task 14: Security Testing  
+### 🧪 Task 13: Security Testing  
 - Write **unit tests** to verify the security configuration:  
   - Test access to endpoints with and without valid credentials.  
   - Mock user authentication for service-level tests.  
