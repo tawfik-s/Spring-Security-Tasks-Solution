@@ -1,0 +1,68 @@
+logging:
+  level.org:
+    springframework:
+      security: TRACE
+
+
+
+
+
+spring:
+  application:
+    name: Task6
+
+
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/security_playground
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+
+    show-sql: true
+
+
+  sql:
+    init:
+      mode: always  # Ensure scripts are run for schema/data initialization, if any.
+
+
+
+  security:
+    oauth2:
+      #GitHub authentication
+
+      client:
+        registration:
+          github:
+            client-id:
+            client-secret:
+            scope: read:user, user:email
+            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+            client-name: GitHub
+          google:
+            client-id:
+            client-secret:
+            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+            scope: email, profile
+            client-name: Google
+
+        provider:
+          google:
+            authorization-uri: https://accounts.google.com/o/oauth2/auth
+            token-uri: https://accounts.google.com/o/oauth2/token
+            user-info-uri: https://www.googleapis.com/oauth2/v3/userinfo
+          github:
+            authorization-uri: https://github.com/login/oauth/authorize
+            token-uri: https://github.com/login/oauth/access_token
+            user-info-uri: https://api.github.com/user
+            user-name-attribute: id
+
