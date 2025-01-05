@@ -74,24 +74,18 @@ Implement **role-based access control**:
 
 ---
 
-### ⚠️ Task 10: Exception Handling  
-- Implement a **custom access denied page** for unauthorized resource access.  
-- Configure custom exception handling for authentication failures.  
-
----
-
-### 💾 Task 11: Remember Me  
+### 💾 Task 10: Remember Me  
 - Add a "**Remember Me**" functionality to the login flow.  
 - Ensure users can stay logged in even after closing their browser.  
 
 ---
 
-### 📂 Task 12: LDAP Authentication  
+### 📂 Task 11: LDAP Authentication  
 - Configure the application to authenticate users against an **LDAP server**.  
 
 ---
 
-### 🧪 Task 13: Security Testing  
+### 🧪 Task 12: Security Testing  
 - Write **unit tests** to verify the security configuration:  
   - Test access to endpoints with and without valid credentials.  
   - Mock user authentication for service-level tests.  
