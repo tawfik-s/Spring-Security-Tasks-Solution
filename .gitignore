@@ -25,3 +25,7 @@ replay_pid*
 
 # draw io cache
 *.bkp
+
+
+#idea
+.idea
