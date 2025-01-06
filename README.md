@@ -66,7 +66,7 @@ Implement **role-based access control**:
 - Enable **CSRF protection** in the application.  
 - Configure CSRF tokens for form submissions.  
 
-
+---
 
 ### 📂 Task 9: LDAP Authentication  
 - Configure the application to authenticate users against an **LDAP server**.  
