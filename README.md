@@ -65,31 +65,38 @@ Implement **role-based access control**:
 ### 🔒 Task 8: CSRF Protection  
 - Enable **CSRF protection** in the application.  
 - Configure CSRF tokens for form submissions.  
+
+
+
+### 📂 Task 9: LDAP Authentication  
+- Configure the application to authenticate users against an **LDAP server**.  
+
+
 <!--
+tasks under consideration
 ---
 
-### 🔐 Task 9: Multi-Factor Authentication  
+### 🔐 Task : Multi-Factor Authentication  
 - Add a second layer of authentication using an **OTP (One-Time Password)** system.  
 - Use **Google Authenticator** or a similar app for generating OTPs.  
 
 ---
 
-### 💾 Task 10: Remember Me  
+### 💾 Task : Remember Me  
 - Add a "**Remember Me**" functionality to the login flow.  
 - Ensure users can stay logged in even after closing their browser.  
 
 ---
 
-### 📂 Task 11: LDAP Authentication  
-- Configure the application to authenticate users against an **LDAP server**.  
-
 ---
 
-### 🧪 Task 12: Security Testing  
+### 🧪 Task : Security Testing  
 - Write **unit tests** to verify the security configuration:  
   - Test access to endpoints with and without valid credentials.  
   - Mock user authentication for service-level tests.  
 -->
+
+
 ---
 ## 🐱‍💻I will Add More Tasks to the Repo Stay Watching the Repo
 ---
